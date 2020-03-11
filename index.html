@@ -15,11 +15,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/heroText.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>Portafolio</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark text-white">
-      <span class="navbar-brand mb-0 h1" href="#">Santiago Bedoya</span>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark text-white">
+      <span class="navbar-brand mb-0 h1b font-weight-bolder" href="#"
+        >Santiago Bedoya</span
+      >
 
       <button
         class="navbar-toggler"
@@ -36,19 +40,32 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="#hero"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#melo">Estudios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <section class="hero">Hola mundo</section>
-    <h1>Santiago Bedoya Torres</h1>
+    <header class="hero big-name" id="hero">
+        <div class="custom-container">
+          <div class="custom-title">SANTIAGO BEDOYA</div>
+          <div class="custom-subtitle">
+            Ingeniero de Sistemas y Computación
+          </div>
+        </div>
+</header>
+    <h1 id="melo">-</h1>
 
     <div class="borrar m-1"></div>
     <div class="borrar m-1"></div>
@@ -73,5 +90,9 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
   </body>
 </html>

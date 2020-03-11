@@ -1,0 +1,59 @@
+Parallax efect
+
+https://freefrontend.com/css-text-effects/
+
+ANIMATED UNDERLINES
+Animated Highlighted Text
+Text-Mask Background Moving On MouseMove
+STAY POSITIVE: TEXT EFFECT
+BACKGROUND CLIP CSS
+POPOUT TEXT WITH BACKGROUND IMAGE SHADOW
+Typography Text Neon
+CSS TEXT REVEAL
+SVG/STROKE ANIMATION
+UNDERLINE EFFECT
+ANIMATING STRIPED TEXT
+TEXT REVEAL ANIMATION
+Glitched Text
+Colorful Text Animation https://codepen.io/hendrysadrak/pen/VLMOMJ/
+Line Text
+ANIMATED UNDERLINES
+Animated Highlighted Text https://codepen.io/ariona/pen/LEEadb/
+Text-Mask Background Moving On MouseMove https://codepen.io/dghez/pen/ItxKE/
+Rotating Text
+Vertically Rotating Text
+GOOEY TEXT BACKGROUND WITH SVG FILTERS https://codepen.io/ines/pen/NXbmRO
+Text Scramble Effect https://codepen.io/soulwire/pen/mErPAK/
+
+
+
+
+
+https://1stwebdesigner.com/css-effects/
+
+9. Growing Thumbnails Portfolio
+14. CSS-Only Responsive Layout with Smooth Transitions
+33. Original Hover Effects with CSS3
+46. Fullscreen Slit Slider with jQuery & CSS3
+53. Auto-Scrolling Parallax CSS Animation Effect
+57. 7 Javascript-Effect Alternatives Using CSS3
+
+https://tympanus.net/Tutorials/Animated3DBarChart/
+https://designmodo.com/demo/interactivegraph/
+
+54. Isocube Image CSS Effect
+
+
+
+https://freefrontend.com/bootstrap-carousels/
+
+BOOTSTRAP CAROUSEL SLIDER
+
+
+https://freefrontend.com/css-page-transitions/
+
+Expanding Card Page Transition Effect
+Cubic Bezier Page Transition
+SIMPLE CSS3 PAGE TRANSITION
+PAGE TRANSITION https://codepen.io/ste-vg/pen/NALWrj
+

@@ -2,14 +2,14 @@
   height: 200px;
   background-color: red;
 }
-.hero {
-  background-color: #1b1464;
-  height: 93vh;
-}
 .navbar {
   background-color: #1b1464;
 }
-
+.hero {
+  /* background-color: #1b1464; */
+  height: 100vh;
+  /* background-image: url('fondo_azul.png'); */
+}
 h1 {
   background-color: green;
 }

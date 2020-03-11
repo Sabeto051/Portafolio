@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="textBgMove.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- If you don't see it u probably are using a browser not based on webkit, so leave IE and grab anything else (Y) -->
+    <!-- UPDATE: works in Chrome & Safari, not Firefox. To solve that you could use an SVG insted of pure text. -->
+
+    <div class="container">
+      <div class="title">ROBERT DEVELOPER</div>
+      <div class="subtitle">
+        geek + smart + curious + nerd + ingenious + cunning = ME
+      </div>
+    </div>
+    <script>
+      $(document).ready(function() {
+        var mouseX, mouseY
+        var ww = $(window).width()
+        var wh = $(window).height()
+        var traX, traY
+        $(document).mousemove(function(e) {
+          mouseX = e.pageX
+          mouseY = e.pageY
+          traX = (4 * mouseX) / 570 + 40
+          traY = (4 * mouseY) / 570 + 50
+          console.log(traX)
+          $('.title').css({ 'background-position': traX + '%' + traY + '%' })
+        })
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="texto.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <span class="txt anim-text-flow"
+        >How are you? Bacon ipsum dolor sit amet.</span
+      >
+    </div>
+
+    <a target="_blank" href="https://twitter.com/hendrysadrak">@hendrysadrak</a>
+    <script>
+      $('.txt').html(function(i, html) {
+        var chars = $.trim(html).split('')
+
+        return '<span>' + chars.join('</span><span>') + '</span>'
+      })
+    </script>
+  </body>
+</html>
