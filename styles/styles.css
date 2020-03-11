@@ -10,6 +10,14 @@
   height: 100vh;
   /* background-image: url('fondo_azul.png'); */
 }
-h1 {
-  background-color: green;
+.description {
+  background-color: brown;
+  height: 100vh;
+  background-image: url(../images/rainbow-nebula.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }

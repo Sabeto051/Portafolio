@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/heroText.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./styles/descriptionText.css">
     <title>Portafolio</title>
   </head>
   <body>
@@ -45,7 +45,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#melo">Estudios</a>
+            <a class="nav-link" href="#description">Descripción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Estudios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Proyectos</a>
@@ -64,7 +67,38 @@
             Ingeniero de Sistemas y Computación
           </div>
         </div>
-</header>
+    </header>
+
+    <section class="description" id="description">
+      <div class="description-text">
+      <h1>
+        <div class="goo">
+          Estudiante de Ingeniería de sistemas y computación<br />En la
+          Universidad EIA
+        </div>
+      </h1>
+      </div>
+      <svg
+      style="visibility: hidden; position: absolute;"
+      width="0"
+      height="0"
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+    >
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+            result="goo"
+          />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+        </filter>
+      </defs>
+    </svg>
+    </section>
     <h1 id="melo">-</h1>
 
     <div class="borrar m-1"></div>
