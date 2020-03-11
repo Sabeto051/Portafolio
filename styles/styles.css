@@ -1,18 +1,20 @@
+/* paletas:
+https://flatuicolors.com/palette/cn
+https://flatuicolors.com/palette/defo
+*/
+
 .borrar {
-  height: 200px;
+  min-height: 200px;
   background-color: red;
 }
 .navbar {
-  background-color: #1b1464;
+  background-color: #2f3542;
 }
 .hero {
-  /* background-color: #1b1464; */
-  height: 100vh;
-  /* background-image: url('fondo_azul.png'); */
+  min-height: 100vh;
 }
-.description {
-  background-color: brown;
-  height: 100vh;
+.fondo-espacio {
+  min-height: 200vh;
   background-image: url(../images/rainbow-nebula.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -20,4 +22,25 @@
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+}
+.description {
+  min-height: 100vh;
+  /* background-image: url(../images/rainbow-nebula.jpg); */
+  /* background-position: center center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646; */
+}
+.proyectos {
+  min-height: 100vh;
+  /* background-color: #f1f2f6; */
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+}
+
+.contacto {
+  min-height: 100vh;
+  background-color: #2f3542;
 }

@@ -57,3 +57,8 @@ Cubic Bezier Page Transition
 SIMPLE CSS3 PAGE TRANSITION
 PAGE TRANSITION https://codepen.io/ste-vg/pen/NALWrj
 
+https://freefrontend.com/css-link-styles/
+
+    GRADIENT UNDERLINE ANIMATION
+    *********https://codepen.io/ariona/pen/JopOOr
+    https://codepen.io/andymerskin/pen/XNMWvQ

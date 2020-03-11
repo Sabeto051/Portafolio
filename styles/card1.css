@@ -1,0 +1,43 @@
+/* html,
+body {
+  height: 100%;
+} */
+
+.proyectos-container {
+  background: #2c3e50;
+}
+
+.custom-card {
+  /* margin: auto; */
+  transition: 0.3s ease;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.custom-card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  transform: translateY(-10px) scale(1.02);
+}
+.custom-card:hover .entry-title {
+  background-position: -100% 0;
+}
+
+.entry-title {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    #ffa502 50%
+  );
+  background-size: 200%;
+  background-position: 0 0;
+  display: inline;
+  transition: 0.5s ease-in-out;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.entry-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.custom-card .btn-primary {
+  background-color: #ff6348;
+}

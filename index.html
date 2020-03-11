@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/heroText.css">
     <link rel="stylesheet" href="./styles/descriptionText.css">
+    <link rel="stylesheet" href="./styles/card1.css">
     <title>Portafolio</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark text-white">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark text-white">
       <span class="navbar-brand mb-0 h1b font-weight-bolder" href="#"
         >Santiago Bedoya</span
       >
@@ -48,19 +49,16 @@
             <a class="nav-link" href="#description">Descripción</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Estudios</a>
+            <a class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <header class="hero big-name" id="hero">
+    <header class="hero big-name m-0" id="hero">
         <div class="custom-container">
           <div class="custom-title">SANTIAGO BEDOYA</div>
           <div class="custom-subtitle">
@@ -69,14 +67,14 @@
         </div>
     </header>
 
-    <section class="description" id="description">
-      <div class="description-text">
-      <h1>
-        <div class="goo">
-          Estudiante de Ingeniería de sistemas y computación<br />En la
-          Universidad EIA
-        </div>
-      </h1>
+    <div class="fondo-espacio m-0 p-0">
+    <section class="description m-0 row align-items-center" id="description">
+      <div class="description-text m-2 col">
+        <article class="goo">
+          Estudiante de Ingeniería de Sistemas<br />y Computación en la
+          Universidad EIA<br />
+          Interesado en desarrollo Full-Stack e Inteligencia Artificial.
+        </article>
       </div>
       <svg
       style="visibility: hidden; position: absolute;"
@@ -84,28 +82,66 @@
       height="0"
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
-    >
-      <defs>
-        <filter id="goo">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-          <feColorMatrix
-            in="blur"
-            mode="matrix"
-            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-            result="goo"
-          />
-          <feComposite in="SourceGraphic" in2="goo" operator="atop" />
-        </filter>
-      </defs>
-    </svg>
+      >
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+              result="goo"
+            />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+          </filter>
+        </defs>
+      </svg>
     </section>
-    <h1 id="melo">-</h1>
 
-    <div class="borrar m-1"></div>
-    <div class="borrar m-1"></div>
-    <div class="borrar m-1"></div>
-    <div class="borrar m-1"></div>
-    <div class="borrar m-1"></div>
+    <section class="proyectos m-0 row align-items-center" id="proyectos">
+        <div class="col align-middle">
+          <div class="card custom-card m-auto" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title entry-title text-center">Polla de la Copa América 2019</h5>
+              <p class="card-text text-justify">Desarrollado usando Laravel, PHP y MySQL para el Back-End, y HTML5 junto con Bootstrap para la aplicación del lado del cliente.</p>
+              <a href="https://github.com/BonzoBonham/PollaCopaAmerica" class="btn btn-primary btn-block" target="_blank">Ir al repositorio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col align-middle">
+          <div class="card custom-card m-auto" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title entry-title text-center">Chat usando Web Sockets</h5>
+              <p class="card-text text-justify">Implementado usando HTML5, CSS3 y JavaScript para el Front-End y NodeJS para el Back-End; Hosteado en 
+                <a href="http://simplechat404.herokuapp.com/">Heroku</a>.</p>
+              <a href="https://github.com/Sabeto051/simple-socket-chat" class="btn btn-primary btn-block" target="_blank">Ir al repositorio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col align-middle">
+          <div class="card custom-card m-auto" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title entry-title text-center">Juego de damas chinas</h5>
+              <p class="card-text text-justify">Diseñada como aplicación de escritorio utilizando Java, usando Swing para la interfaz gráfica. Esta aplicación se conecta con otras aplicaciones de su mismo tipo usando Web Sockets, permitiendo multijugador en dos PCs diferentes.</p>
+              <a href="https://github.com/zulo30/checkers" class="btn btn-primary btn-block" target="_blank">Ir al repositorio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col align-middle">
+          <div class="card custom-card m-auto" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title entry-title text-center">Página Web de Rick & Morty</h5>
+              <p class="card-text text-justify">Creada usando HTML5, JavaScript, jQuery y ReactJS</p>
+              <a href="https://github.com/Sabeto051/Rick-and-Morty-React" class="btn btn-primary btn-block" target="_blank">Ir al repositorio</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    </div>
+
+    <section class="contacto m-0" id="contacto">
+
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
